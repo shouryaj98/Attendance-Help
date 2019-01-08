@@ -1,0 +1,148 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "s. l. c. m. buddy",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "no no",
+                        "nope",
+                        "no"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "grades_intent",
+                    "slots": [
+                        {
+                            "name": "semester",
+                            "type": "sem"
+                        }
+                    ],
+                    "samples": [
+                        "what were my grades in {semester} semester"
+                    ]
+                },
+                {
+                    "name": "attendance_intent",
+                    "slots": [],
+                    "samples": [
+                        "tell me my attendance status",
+                        "tell me my attendance"
+                    ]
+                },
+                {
+                    "name": "yes_intent",
+                    "slots": [],
+                    "samples": [
+                        "yeah",
+                        "yes"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "sem",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "8th"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "7th"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "6th"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "5th"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "4th"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "3rd"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "2nd"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "1st"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "eighth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "seventh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sixth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fifth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fourth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "third"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "second"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "first"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
